@@ -1,14 +1,14 @@
 package final_project;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
+import final_project.windowbuilderdemo.Menu;
+
+import java.awt.*;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JTextPane;
 import javax.swing.JLabel;
-import java.awt.Color;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -18,13 +18,7 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.JRadioButton;
 import javax.swing.ButtonGroup;
 import javax.swing.ImageIcon;
-import java.awt.Dimension;
 import javax.swing.SwingConstants;
-import java.awt.GridLayout;
-import java.awt.FlowLayout;
-import java.awt.GridBagLayout;
-import java.awt.GridBagConstraints;
-import java.awt.Insets;
 import javax.swing.JSplitPane;
 import javax.swing.JDesktopPane;
 import javax.swing.JScrollPane;
@@ -42,8 +36,8 @@ public class final1 extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					final1 frame = new final1();
-					frame.setVisible(true);
+					Menu menu = new Menu();
+					menu.menuStart();
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -350,7 +344,9 @@ public class final1 extends JFrame {
 				chess[i][j]=0;
 			}
 		}
-		
+		Image icon = Toolkit.getDefaultToolkit().getImage("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\src\\img\\icon.jpg");
+		setIconImage(icon);
+		setTitle("五子棋");
 		getContentPane().setBackground(Color.LIGHT_GRAY);
 	
 		setBackground(Color.LIGHT_GRAY);
