@@ -3,11 +3,10 @@ package final_project.windowbuilderdemo.menu;
 import final_project.final1;
 import final_project.windowbuilderdemo.option.OptionSlide;
 
-import javax.sound.sampled.*;
 import javax.swing.*;
 import java.awt.*;
 //my_token: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 ignore this
-public class Menu extends JFrame {
+public class Menu1 extends JFrame {
     private static final String gifImage = "windowbuilderdemo/sakuratree.gif";
     public void menuStart() {
         //init

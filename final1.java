@@ -1,8 +1,9 @@
 package final_project;
 
 
+import final_project.windowbuilderdemo.menu.Menu1;
 import final_project.windowbuilderdemo.soundeffect.soundPlay;
-import final_project.windowbuilderdemo.menu.Menu;
+
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.ActionListener;
@@ -17,7 +18,7 @@ public class final1 extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Menu menu = new Menu();
+					Menu1 menu = new Menu1();
 					menu.menuStart();
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -563,12 +564,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[1][10]=2;  
 						btnNewButton1_10.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[1][10]=1; 
 						btnNewButton1_10.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(1,10);
@@ -587,12 +588,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[2][1]=2;  
 						btnNewButton2_1.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[2][1]=1; 
 						btnNewButton2_1.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(2,1);
@@ -611,12 +612,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[2][2]=2;  
 						btnNewButton2_2.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[2][2]=1; 
 						btnNewButton2_2.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(2,2);
@@ -635,12 +636,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[2][3]=2;  
 						btnNewButton2_3.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[2][3]=1; 
 						btnNewButton2_3.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(2,3);
@@ -659,12 +660,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[2][4]=2;  
 						btnNewButton2_4.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[2][4]=1; 
 						btnNewButton2_4.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(2,4);
@@ -683,12 +684,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[2][5]=2;  
 						btnNewButton2_5.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[2][5]=1; 
 						btnNewButton2_5.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(2,5);
@@ -707,12 +708,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[2][6]=2;  
 						btnNewButton2_6.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[2][6]=1; 
 						btnNewButton2_6.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(2,6);
@@ -731,12 +732,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[2][7]=2;  
 						btnNewButton2_7.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[2][7]=1; 
 						btnNewButton2_7.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(2,7);
@@ -755,12 +756,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[2][8]=2;  
 						btnNewButton2_8.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[2][8]=1; 
 						btnNewButton2_8.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(2,8);
@@ -779,12 +780,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[2][9]=2;  
 						btnNewButton2_9.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[2][9]=1; 
 						btnNewButton2_9.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(2,9);
@@ -803,12 +804,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[2][10]=2;  
 						btnNewButton2_10.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[2][10]=1; 
 						btnNewButton2_10.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(2,10);
@@ -827,12 +828,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[3][1]=2;  
 						btnNewButton3_1.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[3][1]=1; 
 						btnNewButton3_1.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(3,1);
@@ -851,12 +852,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[3][2]=2;  
 						btnNewButton3_2.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[3][2]=1; 
 						btnNewButton3_2.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(3,2);
@@ -875,12 +876,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[3][3]=2;  
 						btnNewButton3_3.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[3][3]=1; 
 						btnNewButton3_3.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(3,3);
@@ -899,12 +900,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[3][4]=2;  
 						btnNewButton3_4.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[3][4]=1; 
 						btnNewButton3_4.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(3,4);
@@ -923,12 +924,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[3][5]=2;  
 						btnNewButton3_5.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[3][5]=1; 
 						btnNewButton3_5.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(3,5);
@@ -947,12 +948,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[3][6]=2;  
 						btnNewButton3_6.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[3][6]=1; 
 						btnNewButton3_6.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(3,6);
@@ -971,12 +972,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[3][7]=2;  
 						btnNewButton3_7.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[3][7]=1; 
 						btnNewButton3_7.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(3,7);
@@ -995,12 +996,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[3][8]=2;  
 						btnNewButton3_8.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[3][8]=1; 
 						btnNewButton3_8.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(3,8);
@@ -1019,12 +1020,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[3][9]=2;  
 						btnNewButton3_9.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[3][9]=1; 
 						btnNewButton3_9.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(3,9);
@@ -1043,12 +1044,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[3][10]=2;  
 						btnNewButton3_10.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[3][10]=1; 
 						btnNewButton3_10.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(3,10);
@@ -1067,12 +1068,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[4][1]=2;  
 						btnNewButton4_1.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[4][1]=1; 
 						btnNewButton4_1.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(4,1);
@@ -1091,12 +1092,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[4][2]=2;  
 						btnNewButton4_2.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[4][2]=1; 
 						btnNewButton4_2.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(4,2);
@@ -1115,12 +1116,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[4][3]=2;  
 						btnNewButton4_3.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[4][3]=1; 
 						btnNewButton4_3.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(4,3);
@@ -1139,12 +1140,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[4][4]=2;  
 						btnNewButton4_4.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[4][4]=1; 
 						btnNewButton4_4.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(4,4);
@@ -1163,12 +1164,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[4][5]=2;  
 						btnNewButton4_5.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[4][5]=1; 
 						btnNewButton4_5.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(4,5);
@@ -1187,12 +1188,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[4][6]=2;  
 						btnNewButton4_6.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[4][6]=1; 
 						btnNewButton4_6.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(4,6);
@@ -1211,12 +1212,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[4][7]=2;  
 						btnNewButton4_7.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[4][7]=1; 
 						btnNewButton4_7.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(4,7);
@@ -1235,12 +1236,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[4][8]=2;  
 						btnNewButton4_8.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[4][8]=1; 
 						btnNewButton4_8.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(4,8);
@@ -1259,12 +1260,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[4][9]=2;  
 						btnNewButton4_9.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[4][9]=1; 
 						btnNewButton4_9.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(4,9);
@@ -1283,12 +1284,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[4][10]=2;  
 						btnNewButton4_10.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[4][10]=1; 
 						btnNewButton4_10.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(4,10);
@@ -1307,12 +1308,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[5][1]=2;  
 						btnNewButton5_1.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[5][1]=1; 
 						btnNewButton5_1.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 
 					}
 					judge_the_result(5,1);
@@ -1331,12 +1332,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[5][2]=2;  
 						btnNewButton5_2.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[5][2]=1; 
 						btnNewButton5_2.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(5,2);
 				}
@@ -1354,12 +1355,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[5][3]=2;  
 						btnNewButton5_3.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[5][3]=1; 
 						btnNewButton5_3.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(5,3);
 				}
@@ -1377,12 +1378,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[5][4]=2;  
 						btnNewButton5_4.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[5][4]=1; 
 						btnNewButton5_4.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(5,4);
 				}
@@ -1400,12 +1401,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[5][5]=2;  
 						btnNewButton5_5.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[5][5]=1; 
 						btnNewButton5_5.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(5,5);
 				}
@@ -1423,12 +1424,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[5][6]=2;  
 						btnNewButton5_6.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[5][6]=1; 
 						btnNewButton5_6.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(5,6);
 				}
@@ -1446,12 +1447,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[5][7]=2;  
 						btnNewButton5_7.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[5][7]=1; 
 						btnNewButton5_7.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(5,7);
 				}
@@ -1469,12 +1470,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[5][8]=2;  
 						btnNewButton5_8.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[5][8]=1; 
 						btnNewButton5_8.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(5,8);
 				}
@@ -1492,12 +1493,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[5][9]=2;  
 						btnNewButton5_9.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[5][9]=1; 
 						btnNewButton5_9.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(5,9);
 				}
@@ -1515,12 +1516,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[5][10]=2;  
 						btnNewButton5_10.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[5][10]=1; 
 						btnNewButton5_10.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(5,10);
 				}
@@ -1538,12 +1539,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[6][1]=2;  
 						btnNewButton6_1.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[6][1]=1; 
 						btnNewButton6_1.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(6,1);
 				}
@@ -1561,12 +1562,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[6][2]=2;  
 						btnNewButton6_2.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[6][2]=1; 
 						btnNewButton6_2.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(6,2);
 				}
@@ -1584,12 +1585,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[6][3]=2;  
 						btnNewButton6_3.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[6][3]=1; 
 						btnNewButton6_3.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(6,3);
 				}
@@ -1607,12 +1608,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[6][4]=2;  
 						btnNewButton6_4.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[6][4]=1; 
 						btnNewButton6_4.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(6,4);
 				}
@@ -1630,12 +1631,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[6][5]=2;  
 						btnNewButton6_5.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[6][5]=1; 
 						btnNewButton6_5.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(6,5);
 				}
@@ -1653,12 +1654,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[6][6]=2;  
 						btnNewButton6_6.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[6][6]=1; 
 						btnNewButton6_6.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(6,6);
 				}
@@ -1676,12 +1677,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[6][7]=2;  
 						btnNewButton6_7.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[6][7]=1; 
 						btnNewButton6_7.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(6,7);
 				}
@@ -1699,12 +1700,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[6][8]=2;  
 						btnNewButton6_8.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[6][8]=1; 
 						btnNewButton6_8.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(6,8);
 				}
@@ -1722,12 +1723,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[6][9]=2;  
 						btnNewButton6_9.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[6][9]=1; 
 						btnNewButton6_9.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(6,9);
 				}
@@ -1745,12 +1746,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[6][10]=2;  
 						btnNewButton6_10.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[6][10]=1; 
 						btnNewButton6_10.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(6,10);
 				}
@@ -1768,12 +1769,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[7][1]=2;
 						btnNewButton7_1.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[7][1]=1; 
 						btnNewButton7_1.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(7,1);
 				}
@@ -1791,12 +1792,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[7][2]=2;  
 						btnNewButton7_2.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[7][2]=1; 
 						btnNewButton7_2.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(7,2);
 				}
@@ -1814,12 +1815,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[7][3]=2;  
 						btnNewButton7_3.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[7][3]=1; 
 						btnNewButton7_3.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(7,3);
 				}
@@ -1837,12 +1838,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[7][4]=2;  
 						btnNewButton7_4.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[7][4]=1; 
 						btnNewButton7_4.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(7,4);
 				}
@@ -1860,12 +1861,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[7][5]=2;  
 						btnNewButton7_5.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[7][5]=1; 
 						btnNewButton7_5.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(7,5);
 				}
@@ -1883,12 +1884,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[7][6]=2;  
 						btnNewButton7_6.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[7][6]=1; 
 						btnNewButton7_6.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(7,6);
 				}
@@ -1906,12 +1907,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[7][7]=2;  
 						btnNewButton7_7.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[7][7]=1; 
 						btnNewButton7_7.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(7,7);
 				}
@@ -1929,12 +1930,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[7][8]=2;  
 						btnNewButton7_8.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[7][8]=1; 
 						btnNewButton7_8.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(7,8);
 				}
@@ -1952,12 +1953,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[7][9]=2;  
 						btnNewButton7_9.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[7][9]=1; 
 						btnNewButton7_9.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(7,9);
 				}
@@ -1975,12 +1976,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[7][10]=2;  
 						btnNewButton7_10.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[7][10]=1; 
 						btnNewButton7_10.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(7,10);
 				}
@@ -1998,12 +1999,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[8][1]=2;  
 						btnNewButton8_1.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[8][1]=1; 
 						btnNewButton8_1.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(8,1);
 				}
@@ -2021,12 +2022,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[8][2]=2;  
 						btnNewButton8_2.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[8][2]=1; 
 						btnNewButton8_2.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(8,2);
 				}
@@ -2044,12 +2045,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[8][3]=2;  
 						btnNewButton8_3.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[8][3]=1; 
 						btnNewButton8_3.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(8,3);
 				}
@@ -2067,12 +2068,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[8][4]=2;  
 						btnNewButton8_4.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[8][4]=1; 
 						btnNewButton8_4.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(8,4);
 				}
@@ -2090,12 +2091,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[8][5]=2;  
 						btnNewButton8_5.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[8][5]=1; 
 						btnNewButton8_5.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(8,5);
 				}
@@ -2113,12 +2114,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[8][6]=2;  
 						btnNewButton8_6.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[8][6]=1; 
 						btnNewButton8_6.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(8,6);
 				}
@@ -2136,12 +2137,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[8][7]=2;  
 						btnNewButton8_7.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[8][7]=1; 
 						btnNewButton8_7.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(8,7);
 				}
@@ -2159,12 +2160,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[8][8]=2;  
 						btnNewButton8_8.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[8][8]=1; 
 						btnNewButton8_8.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(8,8);
 				}
@@ -2182,12 +2183,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[8][9]=2;  
 						btnNewButton8_9.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[8][9]=1; 
 						btnNewButton8_9.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(8,9);
 				}
@@ -2205,12 +2206,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[8][10]=2;  
 						btnNewButton8_10.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[8][10]=1; 
 						btnNewButton8_10.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(8,10);
 				}
@@ -2228,12 +2229,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[9][1]=2;  
 						btnNewButton9_1.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[9][1]=1; 
 						btnNewButton9_1.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(9,1);
 				}
@@ -2251,12 +2252,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[9][2]=2;  
 						btnNewButton9_2.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[9][2]=1; 
 						btnNewButton9_2.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(9,2);
 				}
@@ -2274,12 +2275,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[9][3]=2;  
 						btnNewButton9_3.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[9][3]=1; 
 						btnNewButton9_3.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(9,3);
 				}
@@ -2297,12 +2298,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[9][4]=2;  
 						btnNewButton9_4.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[9][4]=1; 
 						btnNewButton9_4.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(9,4);
 				}
@@ -2320,12 +2321,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[9][5]=2;  
 						btnNewButton9_5.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[9][5]=1; 
 						btnNewButton9_5.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(9,5);
 				}
@@ -2343,12 +2344,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[9][6]=2;  
 						btnNewButton9_6.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[9][6]=1; 
 						btnNewButton9_6.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(9,6);
 				}
@@ -2366,12 +2367,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[9][7]=2;  
 						btnNewButton9_7.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[9][7]=1; 
 						btnNewButton9_7.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(9,7);
 				}
@@ -2389,12 +2390,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[9][8]=2;  
 						btnNewButton9_8.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[9][8]=1; 
 						btnNewButton9_8.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(9,8);
 				}
@@ -2412,12 +2413,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[9][9]=2;  
 						btnNewButton9_9.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[9][9]=1; 
 						btnNewButton9_9.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(9,9);
 				}
@@ -2435,12 +2436,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[9][10]=2;  
 						btnNewButton9_10.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[9][10]=1; 
 						btnNewButton9_10.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(9,10);
 				}
@@ -2458,12 +2459,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[10][1]=2;  
 						btnNewButton10_1.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[10][1]=1; 
 						btnNewButton10_1.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(10,1);
 				}
@@ -2481,12 +2482,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[10][2]=2;  
 						btnNewButton10_2.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[10][2]=1; 
 						btnNewButton10_2.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(10,2);
 				}
@@ -2504,12 +2505,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[10][3]=2;  
 						btnNewButton10_3.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[10][3]=1; 
 						btnNewButton10_3.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(10,3);
 				}
@@ -2527,12 +2528,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[10][4]=2;  
 						btnNewButton10_4.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[10][4]=1; 
 						btnNewButton10_4.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(10,4);
 				}
@@ -2550,12 +2551,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[10][5]=2;  
 						btnNewButton10_5.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[10][5]=1; 
 						btnNewButton10_5.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(10,5);
 				}
@@ -2573,12 +2574,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[10][6]=2;  
 						btnNewButton10_6.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[10][6]=1; 
 						btnNewButton10_6.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(10,6);
 				}
@@ -2596,12 +2597,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[10][7]=2;  
 						btnNewButton10_7.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[10][7]=1; 
 						btnNewButton10_7.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(10,7);
 				}
@@ -2619,12 +2620,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[10][8]=2;  
 						btnNewButton10_8.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[10][8]=1; 
 						btnNewButton10_8.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(10,8);
 				}
@@ -2642,12 +2643,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[10][9]=2;  
 						btnNewButton10_9.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[10][9]=1; 
 						btnNewButton10_9.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(10,9);
 				}
@@ -2665,12 +2666,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[10][10]=2;  
 						btnNewButton10_10.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[10][10]=1; 
 						btnNewButton10_10.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(10,10);
 				}
@@ -2688,12 +2689,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[1][11]=2;  
 						btnNewButton1_11.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[1][11]=1; 
 						btnNewButton1_11.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(1,11);
 				}
@@ -2711,12 +2712,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[1][12]=2;  
 						btnNewButton1_12.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[1][12]=1; 
 						btnNewButton1_12.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(1,12);
 				}
@@ -2734,12 +2735,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[2][11]=2;  
 						btnNewButton2_11.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[2][11]=1; 
 						btnNewButton2_11.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(2,11);
 				}
@@ -2757,12 +2758,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[2][12]=2;  
 						btnNewButton2_12.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[2][12]=1; 
 						btnNewButton2_12.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(2,12);
 				}
@@ -2780,12 +2781,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[3][11]=2;  
 						btnNewButton3_11.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[3][11]=1; 
 						btnNewButton3_11.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(3,11);
 				}
@@ -2803,12 +2804,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[3][12]=2;  
 						btnNewButton3_12.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[3][12]=1; 
 						btnNewButton3_12.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(3,12);
 				}
@@ -2826,12 +2827,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[4][11]=2;  
 						btnNewButton4_11.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[4][11]=1; 
 						btnNewButton4_11.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(4,11);
 				}
@@ -2849,12 +2850,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[4][12]=2;  
 						btnNewButton4_12.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[4][12]=1; 
 						btnNewButton4_12.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(4,12);
 				}
@@ -2872,12 +2873,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[5][11]=2;  
 						btnNewButton5_11.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[5][11]=1; 
 						btnNewButton5_11.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(5,11);
 				}
@@ -2895,12 +2896,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[5][12]=2;  
 						btnNewButton5_12.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[5][12]=1; 
 						btnNewButton5_12.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(5,12);
 				}
@@ -2918,12 +2919,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[6][11]=2;  
 						btnNewButton6_11.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[6][11]=1; 
 						btnNewButton6_11.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(6,11);
 				}
@@ -2941,12 +2942,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[6][12]=2;  
 						btnNewButton6_12.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[6][12]=1; 
 						btnNewButton6_12.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(6,12);
 				}
@@ -2964,12 +2965,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[7][11]=2;  
 						btnNewButton7_11.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[7][11]=1; 
 						btnNewButton7_11.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(7,11);
 				}
@@ -2987,12 +2988,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[7][12]=2;  
 						btnNewButton7_12.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[7][12]=1; 
 						btnNewButton7_12.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(7,12);
 				}
@@ -3010,12 +3011,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[8][11]=2;  
 						btnNewButton8_11.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[8][11]=1; 
 						btnNewButton8_11.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(8,11);
 				}
@@ -3033,12 +3034,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[8][12]=2;  
 						btnNewButton8_12.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[8][12]=1; 
 						btnNewButton8_12.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(8,12);
 				}
@@ -3056,12 +3057,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[9][11]=2;  
 						btnNewButton9_11.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[9][11]=1; 
 						btnNewButton9_11.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(9,11);
 				}
@@ -3079,12 +3080,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[9][12]=2;  
 						btnNewButton9_12.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[9][12]=1; 
 						btnNewButton9_12.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(9,12);
 				}
@@ -3102,12 +3103,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[10][11]=2;  
 						btnNewButton10_11.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[10][11]=1; 
 						btnNewButton10_11.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(10,11);
 				}
@@ -3125,12 +3126,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[10][12]=2;  
 						btnNewButton10_12.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[10][12]=1; 
 						btnNewButton10_12.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(10,12);
 				}
@@ -3148,12 +3149,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[11][1]=2;
 						btnNewButton11_1.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[11][1]=1; 
 						btnNewButton11_1.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(11,1);
 				}
@@ -3171,12 +3172,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[11][2]=2;  
 						btnNewButton11_2.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[11][2]=1; 
 						btnNewButton11_2.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(11,2);
 				}
@@ -3194,12 +3195,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[11][3]=2;  
 						btnNewButton11_3.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[11][3]=1; 
 						btnNewButton11_3.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(11,3);
 				}
@@ -3217,12 +3218,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[11][4]=2;  
 						btnNewButton11_4.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[11][4]=1; 
 						btnNewButton11_4.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(11,4);
 				}
@@ -3240,12 +3241,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[11][5]=2;  
 						btnNewButton11_5.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[11][5]=1; 
 						btnNewButton11_5.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(11,5);
 				}
@@ -3263,12 +3264,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[11][6]=2;  
 						btnNewButton11_6.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[11][6]=1; 
 						btnNewButton11_6.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(11,6);
 				}
@@ -3286,12 +3287,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[11][7]=2;  
 						btnNewButton11_7.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[11][7]=1; 
 						btnNewButton11_7.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(11,7);
 				}
@@ -3309,12 +3310,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[11][8]=2;  
 						btnNewButton11_8.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[11][8]=1; 
 						btnNewButton11_8.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(11,8);
 				}
@@ -3332,12 +3333,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[11][9]=2;  
 						btnNewButton11_9.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[11][9]=1; 
 						btnNewButton11_9.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(11,9);
 				}
@@ -3355,12 +3356,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[11][10]=2;  
 						btnNewButton11_10.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[11][10]=1; 
 						btnNewButton11_10.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(11,10);
 				}
@@ -3378,12 +3379,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[12][1]=2;  
 						btnNewButton12_1.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[12][1]=1; 
 						btnNewButton12_1.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(12,1);
 				}
@@ -3401,12 +3402,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[12][2]=2;  
 						btnNewButton12_2.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[12][2]=1; 
 						btnNewButton12_2.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(12,2);
 				}
@@ -3424,12 +3425,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[12][3]=2;  
 						btnNewButton12_3.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[12][3]=1; 
 						btnNewButton12_3.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(12,3);
 				}
@@ -3447,12 +3448,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[12][4]=2;  
 						btnNewButton12_4.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[12][4]=1; 
 						btnNewButton12_4.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(12,4);
 				}
@@ -3470,12 +3471,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[12][5]=2;  
 						btnNewButton12_5.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[12][5]=1; 
 						btnNewButton12_5.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(12,5);
 				}
@@ -3493,12 +3494,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[12][6]=2;  
 						btnNewButton12_6.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[12][6]=1; 
 						btnNewButton12_6.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(12,6);
 				}
@@ -3516,12 +3517,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[12][7]=2;  
 						btnNewButton12_7.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[12][7]=1; 
 						btnNewButton12_7.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(12,7);
 				}
@@ -3539,12 +3540,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[12][8]=2;  
 						btnNewButton12_8.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[12][8]=1; 
 						btnNewButton12_8.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(12,8);
 				}
@@ -3562,12 +3563,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[12][9]=2;  
 						btnNewButton12_9.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[12][9]=1; 
 						btnNewButton12_9.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(12,9);
 				}
@@ -3585,12 +3586,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[12][10]=2;  
 						btnNewButton12_10.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[12][10]=1; 
 						btnNewButton12_10.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(12,10);
 				}
@@ -3608,12 +3609,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[11][11]=2;  
 						btnNewButton11_11.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[11][11]=1; 
 						btnNewButton11_11.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(11,11);
 				}
@@ -3631,12 +3632,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[11][12]=2;  
 						btnNewButton11_12.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[11][12]=1; 
 						btnNewButton11_12.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(11,12);
 				}
@@ -3654,12 +3655,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[12][11]=2;  
 						btnNewButton12_11.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[12][11]=1; 
 						btnNewButton12_11.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(12,11);
 				}
@@ -3677,12 +3678,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[12][12]=2;  
 						btnNewButton12_12.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[12][12]=1; 
 						btnNewButton12_12.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(12,12);
 				}
