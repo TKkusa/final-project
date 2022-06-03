@@ -1,17 +1,12 @@
 package final_project;
 
-import final_project.windowbuilderdemo.Menu;
 
+import final_project.windowbuilderdemo.soundeffect.soundPlay;
+import final_project.windowbuilderdemo.menu.Menu;
 import java.awt.*;
-
-import final_project.windowbuilderdemo.soundPlay;
 import javax.swing.*;
-import javax.swing.border.EmptyBorder;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-import java.beans.PropertyChangeListener;
-import java.nio.file.FileSystemAlreadyExistsException;
-import java.beans.PropertyChangeEvent;
 
 public class final1 extends JFrame {
 
@@ -304,7 +299,7 @@ public class final1 extends JFrame {
 		}		
 	}
 	private int step=0; // count the steps
-	public int chess[][] = new int[14][14];
+	public int[][] chess = new int[14][14];
 	private int sum_white=0; // count if one line goes to 5
 	private int sum_black=0;
 	private int sum_black_horizontal=0; 
@@ -337,7 +332,7 @@ public class final1 extends JFrame {
 	
 		setBackground(Color.LIGHT_GRAY);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 513, 647); 
+		setBounds(600, 50, 513, 647);
 		getContentPane().setLayout(null);
 		soundPlay soundPlay = new soundPlay();
 		JButton btnNewButton1_1 = new JButton("");

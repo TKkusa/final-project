@@ -1,13 +1,15 @@
-package final_project.windowbuilderdemo;
+package final_project.windowbuilderdemo.menu;
 
 import final_project.final1;
+import final_project.windowbuilderdemo.option.OptionSlide;
+
 import javax.sound.sampled.*;
 import javax.swing.*;
 import java.awt.*;
 //my_token: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 ignore this
 public class Menu extends JFrame {
     private static final String gifImage = "C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\sakuratree.gif";
-    public void menuStart() throws LineUnavailableException {
+    public void menuStart() {
         //init
 
         JFrame frame1 = new JFrame("五子棋");
@@ -24,6 +26,11 @@ public class Menu extends JFrame {
             frame1.setVisible(false);
             final1 frame = new final1();
             frame.setVisible(true);
+        });
+        option.addActionListener(e -> {
+            frame1.setVisible(false);
+            OptionSlide optionSlide = new OptionSlide();
+            optionSlide.optionPlay();
         });
         exit.addActionListener(e -> System.exit(0));
         //add icon image
@@ -55,7 +62,7 @@ public class Menu extends JFrame {
         frame1.getContentPane().add(background);
 //        frame1.add(background);
         frame1.setIconImage(icon);//set app icon
-        frame1.setSize(400, 400);
+        frame1.setBounds(600,200,400,400);
         frame1.setResizable(false);
         frame1.setLocationRelativeTo(null);
         frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
