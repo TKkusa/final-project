@@ -2,16 +2,8 @@ package final_project.windowbuilderdemo;
 
 import final_project.final1;
 
-import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.IOException;
-import java.net.URI;
-import java.net.URL;
-import java.util.Objects;
 
 public class Menu extends JFrame {
 
