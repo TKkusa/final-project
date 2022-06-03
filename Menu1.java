@@ -1,7 +1,4 @@
-package final_project.windowbuilderdemo.menu;
-
-import final_project.final1;
-import final_project.windowbuilderdemo.option.OptionSlide;
+package final_project;
 
 import javax.swing.*;
 import java.awt.*;

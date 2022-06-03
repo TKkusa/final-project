@@ -1,4 +1,4 @@
-package final_project.windowbuilderdemo.soundeffect;
+package final_project;
 
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;

@@ -1,9 +1,6 @@
 package final_project;
 
 
-import final_project.windowbuilderdemo.menu.Menu1;
-import final_project.windowbuilderdemo.soundeffect.soundPlay;
-
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.ActionListener;

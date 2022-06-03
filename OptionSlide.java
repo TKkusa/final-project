@@ -1,4 +1,4 @@
-package final_project.windowbuilderdemo.option;
+package final_project;
 
 import javax.swing.*;
 
