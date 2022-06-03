@@ -338,6 +338,7 @@ public class final1 extends JFrame {
 	private JTextField textField;
 	private JTextField textField_1;
 	private JTextField textField_2;
+	private JTextField textField_3;
 	/**
 	 * Create the frame.
 	 */
@@ -354,7 +355,7 @@ public class final1 extends JFrame {
 	
 		setBackground(Color.LIGHT_GRAY);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 513, 638); 
+		setBounds(100, 100, 513, 647); 
 		getContentPane().setLayout(null);
 		
 		JButton btnNewButton1_1 = new JButton("");
@@ -3394,6 +3395,12 @@ public class final1 extends JFrame {
 		getContentPane().add(textField_1);
 		textField_1.setColumns(10);
 		textField_1.setText("長連：落子點黑方不得連格超過五格");
+		
+		textField_3 = new JTextField();
+		textField_3.setText("雙四：落子點黑方不得有兩方向連格超過四格");
+		textField_3.setBounds(6, 558, 300, 32);
+		getContentPane().add(textField_3);
+		textField_3.setColumns(10);
 		
 	}
 }
