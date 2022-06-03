@@ -8,7 +8,7 @@ import javax.swing.*;
 import java.awt.*;
 //my_token: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 ignore this
 public class Menu extends JFrame {
-    private static final String gifImage = "C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\sakuratree.gif";
+    private static final String gifImage = "windowbuilderdemo/sakuratree.gif";
     public void menuStart() {
         //init
 
@@ -34,7 +34,7 @@ public class Menu extends JFrame {
         });
         exit.addActionListener(e -> System.exit(0));
         //add icon image
-        Image icon = Toolkit.getDefaultToolkit().getImage("C:\\Users\\User\\Desktop\\testing\\windowbuilderdemo\\src\\img\\icon.jpg");
+        Image icon = Toolkit.getDefaultToolkit().getImage("windowbuilderdemo/bin/img/icon.jpg");
         Dimension size = start.getPreferredSize();
         Dimension size_Option = option.getPreferredSize();
         //design label
