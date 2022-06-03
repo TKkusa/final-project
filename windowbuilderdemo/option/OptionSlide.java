@@ -7,7 +7,7 @@ public class OptionSlide extends JFrame {
 
         JFrame optionSlide = new JFrame("選項");
         //control the music volume
-        ImageIcon imageIcon = new ImageIcon("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\src\\img\\icon.jpg");
+        ImageIcon imageIcon = new ImageIcon("windowbuilderdemo/bin/img/icon.jpg");
 
 
         JPanel panel = new JPanel();

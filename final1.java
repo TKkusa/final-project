@@ -325,11 +325,10 @@ public class final1 extends JFrame {
 				chess[i][j]=0;
 			}
 		}
-		Image icon = Toolkit.getDefaultToolkit().getImage("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\src\\img\\icon.jpg");
-		setIconImage(icon);
+		Image icon = Toolkit.getDefaultToolkit().getImage("windowbuilderdemo/bin/img/icon.jpg");
 		setTitle("五子棋");
 		getContentPane().setBackground(Color.LIGHT_GRAY);
-	
+		setIconImage(icon);
 		setBackground(Color.LIGHT_GRAY);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(600, 50, 513, 647);
@@ -344,12 +343,12 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[1][1]=2; // white 
 						btnNewButton1_1.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[1][1]=1; // black
 						btnNewButton1_1.setBackground(Color.black);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\blackside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/blackside_soundeffect.wav");
 					}
 					judge_the_result(1,1);
 				}
@@ -367,7 +366,7 @@ public class final1 extends JFrame {
 					if(step%2==0) {
 						chess[1][2]=2;  
 						btnNewButton1_2.setBackground(Color.white);
-						soundPlay.playSound("C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\whiteside_soundeffect.wav");
+						soundPlay.playSound("windowbuilderdemo/whiteside_soundeffect.wav");
 					}
 					else {
 						chess[1][2]=1; 
