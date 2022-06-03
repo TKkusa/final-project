@@ -4,9 +4,9 @@ import final_project.final1;
 
 import javax.swing.*;
 import java.awt.*;
-
+//my_token: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 ignore this
 public class Menu extends JFrame {
-
+    private static final String gifImage = "C:\\Users\\User\\Desktop\\github\\windowbuilderdemo\\sakuratree.gif";
     public void menuStart(){
         //init
         JFrame frame1 = new JFrame("五子棋");
@@ -40,13 +40,14 @@ public class Menu extends JFrame {
         panel.add(option);
         panel.add(exit);
         //set gif image(null)
+        Image image = Toolkit.getDefaultToolkit().createImage(gifImage);
+
         panel.setBackground(Color.LIGHT_GRAY);
         panel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         //design frame
         frame1.getContentPane().add(label);
         frame1.add(panel);
-        frame1.setIconImage(icon);
-//        frame1.setIconImage(imageIcon.getImage());//set app icon
+        frame1.setIconImage(icon);//set app icon
         frame1.setSize(400, 400);
         frame1.setResizable(false);
         frame1.setLocationRelativeTo(null);
