@@ -6,8 +6,8 @@ import javax.swing.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class final1 extends JFrame {
 
+public class final1 extends JFrame {
 	/**
 	 * Launch the application.
 	 */
@@ -15,8 +15,8 @@ public class final1 extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Menu1 menu = new Menu1();
-					menu.menuStart();
+					Menu1 menu1 = new Menu1();
+					menu1.menuStart();
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -323,7 +323,7 @@ public class final1 extends JFrame {
 				chess[i][j]=0;
 			}
 		}
-		Image icon = Toolkit.getDefaultToolkit().getImage("windowbuilderdemo/bin/img/icon.jpg");
+		Image icon = Toolkit.getDefaultToolkit().getImage(Menu1.appIcon);
 		setTitle("五子棋");
 		getContentPane().setBackground(Color.LIGHT_GRAY);
 		setIconImage(icon);
@@ -331,7 +331,7 @@ public class final1 extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(600, 50, 513, 647);
 		getContentPane().setLayout(null);
-		soundPlay soundPlay = new soundPlay();
+		SoundPlay soundPlay = new SoundPlay();
 		JButton btnNewButton1_1 = new JButton("");
 		btnNewButton1_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

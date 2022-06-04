@@ -1,14 +1,22 @@
 package final_project;
 
 import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 
 public class OptionSlide extends JFrame {
-    public void optionPlay(){
 
+    JSlider slider;
+    JLabel label;
+    public static String strCommand = "";
+    public static String str = "";
+
+
+    public void optionPlay(){
+        //add a option to control the volume
         JFrame optionSlide = new JFrame("選項");
         //control the music volume
-        ImageIcon imageIcon = new ImageIcon("windowbuilderdemo/bin/img/icon.jpg");
-
+        ImageIcon imageIcon = new ImageIcon(Menu1.appIcon);
 
         JPanel panel = new JPanel();
         panel.setLayout(null);
@@ -21,5 +29,6 @@ public class OptionSlide extends JFrame {
         optionSlide.setVisible(true);
 
     }
+
 
 }
