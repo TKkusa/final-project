@@ -1,26 +1,26 @@
 package final_project;
 
+
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.File;
 
 //my_token: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 ignore this
 public class Menu1 extends JFrame {
     public boolean shouldPlay = true;
-    private static final String playMusic = "windowbuilderdemo/Flowers – Sakura Girl (No Copyright Music).wav";
-    private static final String gifImage = "windowbuilderdemo/sakuratree.gif";
+    private static final String gameMusic = "windowbuilderdemo/The Curious Kitten - Aaron Kenny.wav";
+    private static final String playMusic = "windowbuilderdemo/Mr. Sunny Face - Wayne Jones.wav";
+    private static final String gifImage = "windowbuilderdemo/rainbowcat.gif";
+
     public static final String appIcon = "windowbuilderdemo/bin/img/icon.jpg";
     SoundPlay soundPlay = new SoundPlay();
     JFrame frame1 = new JFrame("五子棋");
-    JLabel label = new JLabel("五子棋小遊戲");
+    JLabel label = new JLabel("<html><font color='white'>五子棋小遊戲</font></html>");
     JPanel panel = new JPanel();
     JButton start = new JButton("Start");
-//    JButton option = new JButton("Option");
     JButton exit = new JButton("EXIT");
     public void menuStart() {
         //set gif background
@@ -28,16 +28,10 @@ public class Menu1 extends JFrame {
         JLabel background = new JLabel("", img,JLabel.CENTER);
         background.setBounds(0,0,400,400);
         //other button event
-//        option.addActionListener(e -> {
-////            frame1.setVisible(false);
-//            OptionSlide optionSlide = new OptionSlide();
-//            optionSlide.optionPlay();
-//        });
         exit.addActionListener(e -> System.exit(0));
         //add icon image
         Image icon = Toolkit.getDefaultToolkit().getImage(appIcon);
         Dimension size = start.getPreferredSize();
-//        Dimension size_Option = option.getPreferredSize();
         //design label
         label.setFont(new Font("courier",Font.PLAIN,30));
         label.setBounds(100,50,200,100);
@@ -47,13 +41,6 @@ public class Menu1 extends JFrame {
         exit.setBounds(136,250,100,size.height);
         //design panel
         panel.setLayout(null);
-//        panel.add(label);
-//        panel.add(start);
-//        panel.add(option);
-//        panel.add(exit);
-//        panel.setBackground(Color.LIGHT_GRAY);
-//        panel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-
         playMusic1(playMusic); //menu bgm
         //design frame
         frame1.getContentPane().add(label);
@@ -78,8 +65,8 @@ public class Menu1 extends JFrame {
             if (musicPath.exists())
             {
                 AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(musicPath);
-                Clip clip = AudioSystem.getClip();
 
+                Clip clip = AudioSystem.getClip();
                 clip.open(audioInputStream);
                 clip.start();
                 clip.loop(Clip.LOOP_CONTINUOUSLY);
@@ -88,6 +75,7 @@ public class Menu1 extends JFrame {
                     frame1.setVisible(false);
                     clip.stop();
                     final1 frame = new final1();
+                    playMusic1(gameMusic);
                     frame.setVisible(true);
 
                 });
